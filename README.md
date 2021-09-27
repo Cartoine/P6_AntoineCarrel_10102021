@@ -12,10 +12,14 @@
 
 ## 3. Cloner le back
 
-> ➡️ $ git clone <https://github.com/OpenClassrooms-Student-Center/Web-Developer-P6.git>
+> ➡️ $ git clone <https://github.com/Cartoine/P6_AntoineCarrel_10102021>
+>
 > ➡️ cd backend
+>
 > ➡️ npm install
+>
 > ➡️ créer les dossiers manquant
+>
 > ➡️ npm start
 
 ### ⚠️ Prérequis
