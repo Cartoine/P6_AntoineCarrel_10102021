@@ -14,7 +14,7 @@
 
 > ➡️ $ git clone <https://github.com/Cartoine/P6_AntoineCarrel_10102021>
 >
-> ➡️ cd backend
+> ➡️ cd P6_AntoineCarrel_10102021
 >
 > ➡️ npm install
 >
