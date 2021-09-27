@@ -9,8 +9,7 @@ exports.signup = (req, res, next) => {
   //regex pour exiger un mot de passe fort d'au moins 8 caractères dont une majuscule, des chiffres et un caractère spécial
   const regex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z0-9\d@$!%*?&]{8,}$/; 
   const password = req.body.password;
-  //const cryptedEmail = cryptojs.HmacSHA256(req.body.email, process.env.EMAIL_ENCRYPTION_KEY).toString();
-
+  
   if (password.match(regex)) {
   bcrypt.hash(password, 10)
     .then(hash => {
