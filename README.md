@@ -49,7 +49,11 @@
 ### 🔒 Fichier .env
 
 > PORT=3000
+>
 > DB_USER="your db user "
+>
 > DB_PASSWORD="your pasword"
+>
 > DB_NAME="Le nom de votre bdd"
+>
 > HOST="ce qui ce trouve aprés le @ dans l'adresse de connection mongodb "
