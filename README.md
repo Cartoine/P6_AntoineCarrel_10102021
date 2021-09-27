@@ -33,11 +33,17 @@
 ## 📡 mongodb
 
 > 1️⃣ créer un nouveau projet
+>
 > 2️⃣ créer une basse de données
+>
 > 3️⃣ Ajouter un nouvel utilisateur (lecture et ecriture dans n'importe quelle BDD)
+>
 > 4️⃣ Créer les autorisation d'accées a la bdd dans accés au réseau (autoriser l'accés de n'importe ou)
+>
 > 5️⃣ dans databses -> connect -> Connect your application
+>
 > 6️⃣ copier le liens et renplacer les éléments dans le .env
+>
 > mongodb+srv://**DB_USER**:<**>DB_PASSWORD**>@**HOST<**/**DB_NAME**?retryWrites=true&w=majority
 
 ### 🔒 Fichier .env
