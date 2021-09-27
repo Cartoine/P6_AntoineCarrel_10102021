@@ -4,7 +4,7 @@
 
 > ➡️ ouvrez le dans VScode
 
-## 2. Cloner le Ffont
+## 2. Cloner le front
 
 > ➡️ $ git clone <https://github.com/OpenClassrooms-Student-Center/Web-Developer-P6.git>
 >
@@ -42,18 +42,10 @@
 >
 > 5️⃣ dans databses -> connect -> Connect your application
 >
-> 6️⃣ copier le liens et renplacer les éléments dans le .env
->
-> mongodb+srv://**DB_USER**:<**>DB_PASSWORD**>@**HOST<**/**DB_NAME**?retryWrites=true&w=majority
+> 6️⃣ copier le liens et ajouter le a la variable d'environement **MONGOOSE** dans le .env
 
 ### 🔒 Fichier .env
 
 > PORT=3000
 >
-> DB_USER="your db user "
->
-> DB_PASSWORD="your pasword"
->
-> DB_NAME="Le nom de votre bdd"
->
-> HOST="ce qui ce trouve aprés le @ dans l'adresse de connection mongodb "
+> MONGOOSE=Ajoutez votre chaîne de connexion dans votre code d'application
