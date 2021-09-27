@@ -5,19 +5,6 @@ const jwt = require('jsonwebtoken');
 
 const User = require('../models/User')
 
-// exports.signup = (req, res, next) => {
-//     bcrypt.hash(req.body.password, 10)
-//       .then(hash => {
-//         const user = new User({
-//           email: req.body.email,
-//           password: hash
-//         });
-//         user.save()
-//           .then(() => res.status(201).json({ message: 'Utilisateur créé !' }))
-//           .catch(error => res.status(400).json({ error }));
-//       })
-//       .catch(error => res.status(500).json({ error }));
-//   };
 exports.signup = (req, res, next) => {
   //regex pour exiger un mot de passe fort d'au moins 8 caractères dont une majuscule, des chiffres et un caractère spécial
   const regex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z0-9\d@$!%*?&]{8,}$/; 
